@@ -1,0 +1,2 @@
+# Rummikub
+The Rummikub game
