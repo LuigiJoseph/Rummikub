@@ -1,0 +1,34 @@
+Rummikub How to win:
+    -Have most points after a predetermined number of rounds (usually 3-5)
+
+    -A tile's points is worth by the number on it
+        -A joker has 30 points
+
+    -To get points, the first to empty your hand in the round, gains the combined score of remaining tiles in other players' hands 
+        -The other players score negative (minus) points on the combined score of their respective hand
+            player 1 emptied their hand,
+            player 2 has a combined score of 10, so -10 is scored
+            player 3 has a combined score of 19, so -19 is scored
+
+            player 1 gains 10 + 19 = 29 points
+
+Rules:
+    - to place tiles on the table, you must for them in to either sets or runs:
+
+        Sets: 3 or more tiles with the same number and different colour
+
+        Runs: 3 or more tiles of the same colour and in consecutive order
+            -A joker can fill in any set or run (There are 2 Jokers in the game)
+
+    - A player's first play on the table must be worth at least 30 points
+
+    -After the inital 30 points play, you can place tiles on sets and runs (yours or not) which are on the table
+
+    -If, on your turn, you're not able to play, you must draw a tile from the tile pool
+        You cannot also place tiles on the table in the same turn you draw
+
+
+
+    Set/Run Manipulation:
+
+        You are allowed to break up sets/runs on the table to help make other sets/runs as long as by the end of the turn, all the sets/runs on the table are valid
