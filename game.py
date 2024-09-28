@@ -43,10 +43,21 @@ class RummikubGame:
         random.shuffle(tiles)        
 
         return tiles 
+    
     def start_tiles(self):
         for player in self.set_of_players:
             while len(player.hand) != 14:
                 player.hand.append(self.tiles.pop())
+
+    def draw_tile(self, player):
+        if self.tiles:
+            print(f"{player.name} drew a tile")
+            player.hand.append(self.tiles.pop())
+        else:
+            print(f"There are no more tiles to be drawn")
+
+
+
 
     def start_game(self):
         # Give each player their starting tiles
