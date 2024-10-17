@@ -36,9 +36,9 @@ class RummikubGame:
                 tiles.append(Tile(color, number))
                 tiles.append(Tile(color, number)) #Twice since there is 2 of each tile
         
-        #Add 2 jokers (special tiles without a color or number)
-        tiles.append(Tile("Joker", None))
-        tiles.append(Tile("Joker", None))
+        #Add 2 jokers (special tiles without a color or number) 0 in this case is the joker
+        tiles.append(Tile("Joker", 0))
+        tiles.append(Tile("Joker", 0))
 
         random.shuffle(tiles)        
 
@@ -56,7 +56,8 @@ class RummikubGame:
         else:
             print(f"There are no more tiles to be drawn")
 
-
+    def player_turn(self,player):
+        input
 
 
     def start_game(self):
@@ -65,9 +66,9 @@ class RummikubGame:
 
         # Game flow logic
         print("Starting the game with the following players: ")
-        for player in self.set_of_players:
-            print(f"Player: {player.name} \n")
-            print(f"{player.name}'s hand: {player.hand} \n")
+        # for player in self.set_of_players:
+        #     print(f"Player: {player.name} \n")
+        #     print(f"{player.name}'s hand: {player.hand} \n")
         pass
 
         print(f"Remaining tile pool: {self.tiles} \n")
